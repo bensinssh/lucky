@@ -17,7 +17,8 @@ from linebot import (
 
 app = Flask(__name__)
 
-lineaccesstoken = ACCESS_TOKEN2''
+lineaccesstoken = (
+'ACCESS_TOKEN'
 line_bot_api = LineBotApi(lineaccesstoken)
 
 casedata = pd.read_excel('casedata.xlsx')
